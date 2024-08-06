@@ -68,4 +68,5 @@ pytest -p no:warnings tests.py
 
 ## Video
 
-https://github.com/user-attachments/assets/8717673b-4678-48fc-bf87-086d3dee5320
+
+https://github.com/user-attachments/assets/205dc1ed-2cea-4d2a-a0c5-3fe60af5349e
