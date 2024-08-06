@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  backend:
+    image: my-task-manager-backend:latest
+    ports:
+      - "8000:8000"
+    networks:
+      - task-manager-network
+
+  frontend:
+    image: my-task-manager-frontend:latest
+    ports:
+      - "3000:3000"
+    networks:
+      - task-manager-network
+
+networks:
+  task-manager-network:
+    driver: bridge
